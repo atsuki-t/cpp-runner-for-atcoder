@@ -1,0 +1,19 @@
+{
+  "name": "atcoder-runner",
+  "dockerComposeFile": ["./compose.yml"],
+  "service": "atcoder-runner",
+  "workspaceFolder": "/atcoder-runner",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode",
+        "shinnn.stylelint",
+        "hex-ci.stylelint-plus"
+      ]
+    }
+  },
+  "postCreateCommand": "sudo chown -R vscode:vscode /atcoder-runner/ ;",
+  "remoteUser": "vscode"
+}
