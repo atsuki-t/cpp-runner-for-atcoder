@@ -6,12 +6,20 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "ms-vscode.cpptools-extension-pack",
+        "edonet.vscode-command-runner",
         "dbaeumer.vscode-eslint",
-        "editorconfig.editorconfig",
         "esbenp.prettier-vscode",
         "shinnn.stylelint",
         "hex-ci.stylelint-plus"
-      ]
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "[cpp]": {
+          "editor.defaultFormatter": "ms-vscode.cpptools"
+        }
+      }
     }
   },
   "postCreateCommand": "sudo chown -R vscode:vscode /cpp-runner-for-atcoder/ ;",
