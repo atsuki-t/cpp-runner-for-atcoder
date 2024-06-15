@@ -1,12 +1,12 @@
 version: "3"
 
 services:
-  atcoder-runner:
+  cpp-runner-for-atcoder:
     user: vscode
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ..:/atcoder-runner:delegated
-    working_dir: /atcoder-runner
+      - ..:/cpp-runner-for-atcoder:delegated
+    working_dir: /cpp-runner-for-atcoder
     tty: true
