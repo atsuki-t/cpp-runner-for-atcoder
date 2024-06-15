@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Bash on Windows Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/cpp-runner-for-atcoder/main",
+      "args": ["<", "/cpp-runner-for-atcoder/main.in"],
+      "stopAtEntry": false,
+      "cwd": "/cpp-runner-for-atcoder",
+      "environment": [],
+      "externalConsole": true,
+      "pipeTransport": {
+        "debuggerPath": "/usr/bin/gdb",
+        "pipeProgram": "/bin/sh",
+        "pipeArgs": ["-c"],
+        "pipeCwd": "/"
+      },
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+    }
+  ]
+}
