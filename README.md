@@ -28,6 +28,4 @@ int main() {
 ### デバッグ
 
 - ブレークポイントを仕掛ける
-- cpp ファイルを開いた状態で Shift + Ctrl + B
-- c++ build active file を選択してビルドする
 - F5 を押してデバッグモードを起動する

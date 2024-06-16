@@ -10,13 +10,6 @@
       "stopAtEntry": false,
       "cwd": "/cpp-runner-for-atcoder",
       "environment": [],
-      "externalConsole": true,
-      "pipeTransport": {
-        "debuggerPath": "/usr/bin/gdb",
-        "pipeProgram": "/bin/sh",
-        "pipeArgs": ["-c"],
-        "pipeCwd": "/"
-      },
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
