@@ -24,6 +24,8 @@
           "ignoreFailures": true
         }
       ],
+      "preLaunchTask": "build",
+      "internalConsoleOptions": "openOnSessionStart"
     }
   ]
 }

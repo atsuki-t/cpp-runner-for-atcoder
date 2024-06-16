@@ -9,17 +9,19 @@
         "-std=gnu++20",
         "-Wall",
         "-Wextra",
-        "-O2",
+        "-O0",
+        "-g",
         "-DONLINE_JUDGE",
         "-I${workspaceFolder}/ac-library",
         "-o",
-        "'${workspaceFolder}/program'",
+        "'${workspaceFolder}/main'",
         "'${file}'"
       ],
       "group": {
         "kind": "build",
         "isDefault": true
-      }
+      },
+      "problemMatcher": ["$gcc"]
     }
   ]
 }
