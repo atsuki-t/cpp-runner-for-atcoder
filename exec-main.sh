@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # コンパイル
-g++ main.cpp -o main
+g++ main.cpp -std=gnu++20 -o main
 
 start=$(date +%s.%N)
 # 実行
