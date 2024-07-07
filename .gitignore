@@ -3,6 +3,9 @@ main.cpp
 main.in
 main
 
+utils/
+sample_codes/
+
 # Prerequisites
 *.d
 
