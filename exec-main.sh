@@ -5,11 +5,11 @@ g++ main.cpp -std=gnu++20 -o main
 
 start=$(date +%s.%N)
 # 実行
-timeout 10s ./main < main.in
+timeout 2s ./main < main.in
 
 # 直前のコマンドがタイムアウトしたらメッセージを表示する
 if [ $? -eq 124 ]; then
-  echo "実行時間が10秒を超えたので強制的に中断しました"
+  echo "実行時間が2秒を超えたので強制的に中断しました"
 else
   end=$(date +%s.%N)
 
